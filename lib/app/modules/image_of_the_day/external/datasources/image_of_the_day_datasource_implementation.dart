@@ -8,7 +8,7 @@ import 'package:nasa_app/app/modules/image_of_the_day/infrastructure/errors/date
 import 'package:nasa_app/app/modules/image_of_the_day/infrastructure/errors/image_of_the_day_datasource_error.dart';
 import 'package:nasa_app/app/modules/image_of_the_day/infrastructure/models/image_of_the_day_model.dart';
 import 'package:nasa_app/app/modules/image_of_the_day/infrastructure/models/image_of_the_day_parameters_model.dart';
-import '../../../../../secrets.dart';
+import '../../../../secrets.dart';
 
 class ImageOfTheDayDatasourceImplementation implements ImageOfTheDayDatasource {
   final Dio dio;

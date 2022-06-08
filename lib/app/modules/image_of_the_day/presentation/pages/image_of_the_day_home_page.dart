@@ -192,7 +192,7 @@ class _ImageOftheDayHomePageState extends State<ImageOftheDayHomePage> {
                             state.imageOfTheDay.image,
                             loadingBuilder: (context, child, loadingProgress) {
                               if (loadingProgress == null) {
-                                return child;
+                                return Center(child: child);
                               }
                               return Center(
                                 child: Padding(
