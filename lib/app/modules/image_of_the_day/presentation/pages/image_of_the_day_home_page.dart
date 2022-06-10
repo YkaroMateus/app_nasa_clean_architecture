@@ -188,22 +188,24 @@ class _ImageOftheDayHomePageState extends State<ImageOftheDayHomePage> {
                               ),
                             ),
                           ),
-                          Image.network(
-                            state.imageOfTheDay.image,
-                            loadingBuilder: (context, child, loadingProgress) {
-                              if (loadingProgress == null) {
-                                return Center(child: child);
-                              }
-                              return Center(
-                                child: Padding(
-                                  padding: const EdgeInsets.only(left: 16.0, right: 16.0),
-                                  child: LinearProgressIndicator(
-                                    color: Colors.red,
-                                    backgroundColor: Colors.blue,
+                          InteractiveViewer(
+                            child: Image.network(
+                              state.imageOfTheDay.image,
+                              loadingBuilder: (context, child, loadingProgress) {
+                                if (loadingProgress == null) {
+                                  return Center(child: child);
+                                }
+                                return Center(
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(left: 16.0, right: 16.0),
+                                    child: LinearProgressIndicator(
+                                      color: Colors.red,
+                                      backgroundColor: Colors.blue,
+                                    ),
                                   ),
-                                ),
-                              );
-                            },
+                                );
+                              },
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 8),
