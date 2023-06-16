@@ -56,7 +56,7 @@ class _ImageOftheDayHomePageState extends State<ImageOftheDayHomePage> {
                 color: Colors.red,
               ),
               title: Text(
-                'Sair',
+                'Exit',
                 style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold, fontSize: 16),
               ),
               onTap: () {
@@ -90,7 +90,7 @@ class _ImageOftheDayHomePageState extends State<ImageOftheDayHomePage> {
                         context: context,
                         builder: (context) => AlertDialog(
                           title: Text(
-                            'ERROR:(\n\nDesculpe,\nOcorreu um Erro Interno!',
+                            'ERROR:(\n\nSorry!\nAn internal error occurred',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
@@ -119,7 +119,7 @@ class _ImageOftheDayHomePageState extends State<ImageOftheDayHomePage> {
                                     .add(GetImageOfTheDayEvent(ImageOfTheDayParameters(date: '')));
                               },
                               child: Text(
-                                'Tentar Novamente',
+                                'Try again',
                                 textAlign: TextAlign.center,
                                 style:
                                     TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),

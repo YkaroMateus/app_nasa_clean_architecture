@@ -68,7 +68,7 @@ flutter:
   assets:
       - assets/images/pngwing.png
       - assets/images/space.jpg
-      - assets/images/fundo.png
+      - assets/images/background.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
