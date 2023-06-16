@@ -4,6 +4,8 @@ Nasa App Flutter project.
 
 ## Getting Started
 
+OBS: This repository aims to show the architecture layers of clean architecture and show the advantages of implementing the architecture in your project.
+
 Clean Architecture, also known as the Clean Architecture, is a software development pattern that has become popular in the context of Flutter. It stands out for its ability to promote separation of concerns and maintain well-structured code. By adopting Clean Architecture in a Flutter project, several advantages can be achieved.
 
 In the context of Flutter development, Clean Architecture brings significant benefits. Firstly, it promotes clear and defined separation of responsibilities into different architectural layers. This facilitates code maintenance, as each layer has its own concerns and can be modified independently of the others. Thus, it is possible to make changes in one layer without affecting the others, providing greater flexibility and scalability to the project.
