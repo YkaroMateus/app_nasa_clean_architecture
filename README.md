@@ -14,14 +14,16 @@ Another advantage of Clean Architecture in Flutter is the facilitation of automa
 
 It is worth noting that Clean Architecture also enables code reuse. The layers are organized in a modular and independent way, which means that specific components can be shared between different projects or modules within the same project. This promotes efficiency and productivity in Flutter development since parts of the code can be reused, avoiding the need to rewrite similar functionalities in different contexts.
 
+![alt text](https://blog.ippon.fr/content/images/2018/05/clean-architecture-1.png)
+
 Another important aspect of Clean Architecture is the clarity and readability of the code. By following the guidelines of clean architecture, the code tends to be more organized, with well-defined responsibilities and names of classes, methods, and variables that reflect the domain of the problem at hand. This facilitates collaboration among developers, makes the code easier to understand, and reduces the time required to perform maintenance tasks or implement new features.
 
 Finally, Clean Architecture in Flutter also offers long-term benefits in terms of software maintenance and evolution. With a well-defined structure and clear separation of responsibilities, the code becomes more resilient to changes. If it becomes necessary to change the data persistence technology, for example, or add new data sources, only the data layer needs to be modified while the other layers remain intact. This avoids unwanted side effects and makes the maintenance process safer and more efficient.
 
 In summary, Clean Architecture in Flutter brings a range of advantages, such as clear separation of responsibilities, facilitated automated testing, code reuse, clarity and readability of the code, and simplified long-term maintenance.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Buy your book](https://flutter.dev/docs/cookbook)
+- [Follow me](https://www.linkedin.com/in/ykaro-mateus-246712234/)
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
